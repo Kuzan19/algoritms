@@ -15,3 +15,4 @@ def fib_dynamic(n):
 
 if __name__ == "__main__":
     print(fib_dynamic(10))
+    
