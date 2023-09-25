@@ -20,11 +20,18 @@ def equal(A, B):
     return True
 
 
-
+def search_substring(s, sub):
+    """Поиск первого индекса подстроки в строке"""
+    for i in range(0, len(s)-len(sub)):
+        if equal(s[i:i+len(sub)], sub):
+            print(i)
 
 
 word = 'milk'
 word2 = 'milf'
+string_1 = "abhcdadbcb"
+string_2 = "cdad"
+
 
 if __name__ == "__main__":
-    print(levinstein(word, word2))
+    search_substring(string_1, string_2)
