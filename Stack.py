@@ -19,6 +19,8 @@ class _Stack:
         print(self.ara)
 
 
+F = 1234_5678_9101_2345
+
 A = _Stack()
 
 if __name__ == "__main__":

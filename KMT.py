@@ -40,4 +40,4 @@ def kmt(s1: str, s2: str):
 
 
 if __name__ == "__main__":
-    print(kmt(string_1, string_2))
+    print(kmt('flower', "flow"))
