@@ -21,7 +21,7 @@ def prefix(s: str):
     return p
 
 
-def kmt(s1: str, s2: str):
+def kmp(s1: str, s2: str):
     i = 0
     j = 0
     while i < len(s1):
@@ -40,4 +40,4 @@ def kmt(s1: str, s2: str):
 
 
 if __name__ == "__main__":
-    print(kmt('flower', "flow"))
+    print(kmp('flower', "flow"))
