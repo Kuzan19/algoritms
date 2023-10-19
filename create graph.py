@@ -1,4 +1,4 @@
-def create_graph():
+def create_graph(m, n):
     m, n = [int(x) for x in input().split()]
     V = []
     index = {}
@@ -16,5 +16,6 @@ def create_graph():
         except ValueError:
             break
     return A
+
 
 print(create_graph())
